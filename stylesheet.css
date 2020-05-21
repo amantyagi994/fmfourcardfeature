@@ -9,10 +9,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  margin: 10px;
-}
-
 .introContainer {
   padding-top: 60px;
   width: 100%;
@@ -123,7 +119,7 @@ h3 {
   text-align: right;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1080px) {
   .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -142,5 +138,20 @@ h3 {
   .intro h3 {
     font-size: 26px;
   }
+}
+
+.attribution {
+  font-size: 1rem;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  color: #fafafa;
+  background: -webkit-gradient(linear, left top, right top, from(#549ef2), color-stop(#45d3d3), to(#549ef2));
+  background: linear-gradient(90deg, #549ef2, #45d3d3, #549ef2);
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #4c4e61;
 }
 /*# sourceMappingURL=stylesheet.css.map */
